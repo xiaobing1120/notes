@@ -20,3 +20,10 @@
 > 地址：https://www.npmjs.com/package/adm-zip
 
 > 作用：zip打包解析
+
+
+* chalk
+> 地址：https://www.npmjs.com/package/chalk
+
+> 作用：命令行输出加color
+
