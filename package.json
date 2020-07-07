@@ -1,0 +1,20 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git add . && git commit -m 'npm' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaobing1120/notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaobing1120/notes/issues"
+  },
+  "homepage": "https://github.com/xiaobing1120/notes#readme"
+}
