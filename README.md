@@ -40,6 +40,6 @@
 3. vertical
 > 类型：String  
 > 必传：否  
-> 释义： 垂直显示位置，默认 'center'  
-> 可选值： 'flex-start' | 'center' |  'flex-start'  
+> 释义： 垂直显示位置，默认 'middle'  
+> 可选值： 'top' | 'middle' |  'bottom'  
 
