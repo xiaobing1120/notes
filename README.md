@@ -2,12 +2,21 @@
 
 ## 在当前页面的.json 文件中引用组件
 
-```javascript 
+```json 
 {
   "usingComponents": {
     "DefaultPage": "../../components/default-page/default-page"
   }
 }
+```
+
+```javascript
+<DefaultPage 
+  type="{{9}}" 
+  fullScreen="{{true}}" 
+  vertical="middle"
+  bind:refresh="test" // 回调函数
+/>
 ```
 
 
