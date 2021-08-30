@@ -1,6 +1,6 @@
 
 
-## 在当前页面的.json 文件中引用
+## 在当前页面的.json 文件中引用组件
 
 ```javascript 
 {
@@ -14,7 +14,11 @@
 
 ### 参数
 
-- type: Number  必传
+1. type
+> 类型：Number  
+> 必传：是  
+> 释义： 显示内容的类型  
+> 可选值： 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9  
 ```
 1 加载中 
 2 暂无数据 
@@ -27,7 +31,15 @@
 9 加载失败
 ```
 
-- fullScreen: Boolean 不必传
+2. fullScreen
+> 类型：Boolean  
+> 必传：否  
+> 释义： 是否全屏显示，默认false  
+> 可选值： true | false  
 
-- vertical: String 不必传
+3. vertical
+> 类型：String  
+> 必传：否  
+> 释义： 垂直显示位置，默认 'center'  
+> 可选值： 'flex-start' | 'center' |  'flex-start'  
 
